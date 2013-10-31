@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["jake@wideopenspac.es"]
   spec.description   = %q{Add accessors for a hash}
   spec.summary       = spec.description
-  spec.homepage      = 'https://github.com/wideopenspaces/madhattr'
+  spec.homepage      = 'https://github.com/wideopenspaces/Madhattr'
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
