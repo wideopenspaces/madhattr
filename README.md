@@ -6,7 +6,7 @@ TODO: Write a gem description
 
 Add this line to your application's Gemfile:
 
-    gem 'madhattr'
+    gem 'madhattr', require: false
 
 And then execute:
 
@@ -18,7 +18,23 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+It's easy: when you intend to use it
+
+    require 'madhattr/hattr_accessor'
+
+and then, in your class:
+
+    extend HattrAccessor
+
+    hattr_reader :source_hash, *keys_to_be_accessorized
+
+e.g.,
+
+    hattr_reader :animals, :cat, :bird, :dog, :snake
+
+You can also create writers using `hattr_reader` or both readers and writers using `hattr_accessor`.
+
+Enjoy!
 
 ## Contributing
 
