@@ -1,6 +1,12 @@
 # Madhattr
 
-TODO: Write a gem description
+[![Version](http://allthebadges.io/wideopenspaces/madhattr/badge_fury.png)](http://allthebadges.io/wideopenspaces/madhattr/badge_fury)
+[![Dependencies](http://allthebadges.io/wideopenspaces/madhattr/gemnasium.png)](http://allthebadges.io/wideopenspaces/madhattr/gemnasium)
+[![Build Status](http://allthebadges.io/wideopenspaces/madhattr/travis.png)](http://allthebadges.io/wideopenspaces/madhattr/travis)
+[![Coverage](http://allthebadges.io/wideopenspaces/madhattr/coveralls.png)](http://allthebadges.io/wideopenspaces/madhattr/coveralls)
+[![Code Climate](http://allthebadges.io/wideopenspaces/madhattr/code_climate.png)](http://allthebadges.io/wideopenspaces/madhattr/code_climate)
+
+Basic accessors (readers/writers) for hash elements, such as options hashes!
 
 ## Installation
 
