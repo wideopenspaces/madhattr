@@ -38,7 +38,7 @@ e.g.,
 
     hattr_reader :animals, :cat, :bird, :dog, :snake
 
-You can also create writers using `hattr_reader` or both readers and writers using `hattr_accessor`.
+You can also create writers using `hattr_writer` or both readers and writers using `hattr_accessor`.
 
 Enjoy!
 
