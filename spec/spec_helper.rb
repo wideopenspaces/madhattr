@@ -1,4 +1,10 @@
 require 'madhattr'
+
+if ENV['CI']
+  require 'coveralls'
+  Coveralls.wear!
+end
+
 require 'minitest'
 require 'minitest/autorun'
 require 'minitest/spec'
@@ -7,5 +13,3 @@ require 'minitest/hell'
 
 require 'minitest-spec-context'
 
-require 'coveralls'
-Coveralls.wear!
