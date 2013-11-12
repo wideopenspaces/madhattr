@@ -1,9 +1,16 @@
-require 'madhattr'
-
 if ENV['CI']
   require 'coveralls'
-  Coveralls.wear!
+  Coveralls.wear! do
+    add_filter "/spec"
+  end
+else
+  require 'simplecov'
+  SimpleCov.start do
+    add_filter "/spec"
+  end
 end
+
+require 'madhattr'
 
 require 'minitest'
 require 'minitest/autorun'
