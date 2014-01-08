@@ -37,7 +37,11 @@ and then, in your class:
 e.g.,
 
     hattr_reader :animals, :cat, :bird, :dog, :snake
+    
+Alternately, you can specify readers with defaults using `hattr_readers_with_defaults`:
 
+    hattr_readers_with_defaults :animals, cat: 'purty', 'dog: 'smelly', snake: 'slimy'
+    
 You can also create writers using `hattr_writer` or both readers and writers using `hattr_accessor`.
 
 Enjoy!
